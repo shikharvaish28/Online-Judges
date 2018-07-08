@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "__locale": "cpp"
-    }
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
