@@ -10,7 +10,7 @@ int main(){
     int n, suvo = 0, suvojit = 0;
     char str[150];
     cin >> n;
-    while (n!=0){
+    {
         suvo = 0;
         suvojit = 0;
         cin >> str;
@@ -26,7 +26,7 @@ int main(){
             }
         }
         cout << "SUVO = " << suvo <<", SUVOJIT = " <<suvojit <<endl;
-        n--;
+    ;
     }
     
 return 0;
