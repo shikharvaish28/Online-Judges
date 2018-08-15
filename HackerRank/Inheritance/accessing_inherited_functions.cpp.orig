@@ -72,19 +72,19 @@ class C
             return callC;
         }
 };
-class D : public A,public B,public C {
-    public:
+class D : public A,public B,public C { 
+    public: 
     int val;
-    public:
-        //Initially val is 1
-         D()
-         {
-            val = 1;
-         }
+	public:
+		//Initially val is 1
+		 D()
+		 {
+		 	val = 1;
+		 }
 
 
-         //Implement this function
-        void update_val(int new_val)
+		 //Implement this function
+		void update_val(int new_val)
 {
       while(val < new_val){
           if(new_val%(val*2)==0){
@@ -99,8 +99,8 @@ class D : public A,public B,public C {
          }
 }
 
-         //For Checking Purpose
-         void check(int); //Do not delete this line.
+		 //For Checking Purpose
+		 void check(int); //Do not delete this line.
 };
 
 

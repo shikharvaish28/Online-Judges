@@ -30,7 +30,7 @@ int main() {
             printf("eight\n");
         else if(i ==9)
             printf("nine\n");
-
+            
     }
     return 0;
 }

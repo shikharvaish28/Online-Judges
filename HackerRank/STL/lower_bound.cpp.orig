@@ -6,7 +6,7 @@
 #include <algorithm>
 using namespace std;
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int n , inp , query;
     cin >> n;
     vector <int> v;
@@ -15,7 +15,7 @@ int main() {
         v.push_back(inp);
     }//finished taking input
     cin >> query;
-    int val ;
+    int val ; 
     while (query > 0){
         cin >> val;
         //declare a lower bound iterator
@@ -24,7 +24,7 @@ int main() {
            cout << "Yes " << (low - v.begin()+1) << endl;
        else
            cout << "No " << (low - v.begin()+1) << endl;
-
+        
         query--;
     }
     return 0;

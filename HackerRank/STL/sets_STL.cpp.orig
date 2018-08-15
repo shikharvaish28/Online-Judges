@@ -24,10 +24,10 @@ for (int i=0; i<iCount; ++i){
             break;
         case 3:
             cout << (ss.find(query) == ss.end() ? "No" : "Yes") << endl;
-            // ss.find(query) == ss.end() : this line means that while finding the query, the iterator got till
+            // ss.find(query) == ss.end() : this line means that while finding the query, the iterator got till 
             // still found out nothing
             break;
     }
-}
+}  
 return 0;
 }
